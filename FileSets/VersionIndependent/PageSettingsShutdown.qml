@@ -39,7 +39,7 @@ MbPage
         }
         MbItemText
         {
-            text: qsTr("<b>NOTE:</b> Shutdown pin is GPIO #16 (pin36)\n Take low to shutdown")
+            text: qsTr("<b>NOTE:</b> Shutdown pin is GPIO #16 (pin36)")
             wrapMode: Text.WordWrap
             horizontalAlignment: Text.AlignLeft
             show: externalShutdownPresent
